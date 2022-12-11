@@ -142,6 +142,15 @@ namespace Scrabble2018.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Desktop.
+        /// </summary>
+        public static string DesktopInterface {
+            get {
+                return ResourceManager.GetString("DesktopInterface", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Done.
         /// </summary>
         public static string Done {
@@ -210,6 +219,15 @@ namespace Scrabble2018.Properties {
         public static string MobileFinishButton {
             get {
                 return ResourceManager.GetString("MobileFinishButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mobile.
+        /// </summary>
+        public static string MobileInterface {
+            get {
+                return ResourceManager.GetString("MobileInterface", resourceCulture);
             }
         }
         
@@ -480,6 +498,15 @@ namespace Scrabble2018.Properties {
         public static string TextInstructions {
             get {
                 return ResourceManager.GetString("TextInstructions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text.
+        /// </summary>
+        public static string TextInterface {
+            get {
+                return ResourceManager.GetString("TextInterface", resourceCulture);
             }
         }
         

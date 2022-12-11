@@ -58,7 +58,7 @@ namespace Scrabble2018.View
         {
             /*Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.InputEncoding = System.Text.Encoding.Unicode;
-            CultureInfo _info = CultureInfo.CreateSpecificCulture("KR");
+            CultureInfo _info = CultureInfo.CreateSpecificCulture("ko-KR");
             //Korean
             Thread.CurrentThread.CurrentCulture = _info;
             Thread.CurrentThread.CurrentUICulture = _info;
