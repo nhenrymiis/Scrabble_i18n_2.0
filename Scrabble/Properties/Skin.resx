@@ -153,6 +153,10 @@
     <value>Choose a letter to represent the blank tile:</value>
     <comment>BlankTileForm.xaml</comment>
   </data>
+  <data name="DesktopInterface" xml:space="preserve">
+    <value>Desktop</value>
+    <comment>MainWindow.xaml</comment>
+  </data>
   <data name="Done" xml:space="preserve">
     <value>Done</value>
     <comment>BlankTileForm.xaml</comment>
@@ -180,6 +184,10 @@
   </data>
   <data name="MobileFinishButton" xml:space="preserve">
     <value>FINISH</value>
+  </data>
+  <data name="MobileInterface" xml:space="preserve">
+    <value>Mobile</value>
+    <comment>MainWindow.xaml</comment>
   </data>
   <data name="MobilePlayerandScore" xml:space="preserve">
     <value>Now: P. {0} | Score: </value>
@@ -282,6 +290,10 @@
   </data>
   <data name="TextInstructions" xml:space="preserve">
     <value>SWAP then enter tile letter (IE: V D A)..., MOVE A(7,7)... to place tiles, PASS to pass, or RANK to rank.</value>
+  </data>
+  <data name="TextInterface" xml:space="preserve">
+    <value>Text</value>
+    <comment>MainWindow.xaml</comment>
   </data>
   <data name="TextJudgeCommand" xml:space="preserve">
     <value>Game Judge: You've input a wrong command. Please try again</value>
