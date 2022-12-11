@@ -22,27 +22,27 @@
         <Grid Name="Interfaces" Margin="0,0.4" Grid.Row="1">
             <ComboBox Name="CB1" HorizontalAlignment="Left" Margin="167,16.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi1"></ComboBoxItem>
-                <ComboBoxItem Name="cbi2" Content="{x:Static local:Skin.DesktopInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cbi3" Content="{x:Static local:Skin.TextInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cbi4" Content="{x:Static local:Skin.MobileInterface}"></ComboBoxItem>
+                <ComboBoxItem Name="cbi2">Desktop</ComboBoxItem>
+                <ComboBoxItem Name="cbi3">Text</ComboBoxItem>
+                <ComboBoxItem Name="cbi4">Mobile</ComboBoxItem>
             </ComboBox>
             <ComboBox Name="CB2" HorizontalAlignment="Left" Margin="167,195.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi5"></ComboBoxItem>
-                <ComboBoxItem Name="cbi6" Content="{x:Static local:Skin.DesktopInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cbi7" Content="{x:Static local:Skin.TextInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cbi8" Content="{x:Static local:Skin.MobileInterface}"></ComboBoxItem>
+                <ComboBoxItem Name="cbi6">Desktop</ComboBoxItem>
+                <ComboBoxItem Name="cbi7">Text</ComboBoxItem>
+                <ComboBoxItem Name="cbi8">Mobile</ComboBoxItem>
             </ComboBox>
             <ComboBox Name="CB3" HorizontalAlignment="Left" Margin="167,135.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi9"></ComboBoxItem>
-                <ComboBoxItem Name="cbi10" Content="{x:Static local:Skin.DesktopInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cbi11" Content="{x:Static local:Skin.TextInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cb12" Content="{x:Static local:Skin.MobileInterface}"></ComboBoxItem>>
+                <ComboBoxItem Name="cbi10">Desktop</ComboBoxItem>
+                <ComboBoxItem Name="cbi11">Text</ComboBoxItem>
+                <ComboBoxItem Name="cbi12">Mobile</ComboBoxItem>
             </ComboBox>
             <ComboBox Name="CB4" HorizontalAlignment="Left" Margin="167,74.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi13"></ComboBoxItem>
-                <ComboBoxItem Name="cbi14" Content="{x:Static local:Skin.DesktopInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cbi15" Content="{x:Static local:Skin.TextInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cbi16" Content="{x:Static local:Skin.MobileInterface}"></ComboBoxItem>
+                <ComboBoxItem Name="cbi14">Desktop</ComboBoxItem>
+                <ComboBoxItem Name="cbi15">Text</ComboBoxItem>
+                <ComboBoxItem Name="cbi16">Mobile</ComboBoxItem>
             </ComboBox>
             <Button Content="Language" HorizontalAlignment="Left" Margin="16,243,0,0" VerticalAlignment="Top" Click="Lang_Click" Background="#FF6EF770" Height="29" Width="66"/>
         </Grid>
