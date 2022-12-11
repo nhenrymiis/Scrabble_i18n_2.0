@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="2xLetter" xml:space="preserve">
+    <value>日本語_2x文字</value>
+    <comment>HelpWindow.xaml</comment>
+  </data>
+  <data name="2xWord" xml:space="preserve">
+    <value>日本語_2x単語</value>
+    <comment>HelpWindow.xaml</comment>
+  </data>
+  <data name="3xLetter" xml:space="preserve">
+    <value>日本語_3x文字</value>
+    <comment>HelpWindow.xaml</comment>
+  </data>
+  <data name="3xWord" xml:space="preserve">
+    <value>日本語_3x単語</value>
+    <comment>HelpWindow.xaml</comment>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>について</value>
+    <comment>AboutWindow.xaml; OldLocal: xmlns:local="clr-namespace:Scrabble.View"</comment>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>作者: poyea@GitHub; リポジトリ: poyea/scrabble</value>
+    <comment>AboutWindow.xaml; Hard to Localize</comment>
+  </data>
+  <data name="BlankTileForm" xml:space="preserve">
+    <value>空白牌のフォーム</value>
+    <comment>BlankTileForm.xaml</comment>
+  </data>
+  <data name="BoardTileTypes" xml:space="preserve">
+    <value>盤面牌の種類</value>
+    <comment>HelpWindow.xaml</comment>
+  </data>
+  <data name="ChooseLetter" xml:space="preserve">
+    <value>空白のタイルを表す文字を選んでください。</value>
+    <comment>BlankTileForm.xaml</comment>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>終了</value>
+    <comment>BlankTileForm.xaml</comment>
+  </data>
+  <data name="FinishButton" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="FinishSwap" xml:space="preserve">
+    <value>プレイヤー{0}のタイル交換が終了しました!</value>
+    <comment>"Player " + (PlayerNow + 1) + " finishing swapping tiles!"</comment>
+  </data>
+  <data name="FinishTurn" xml:space="preserve">
+    <value>ターン終了</value>
+    <comment>DesktopWindow.xaml</comment>
+  </data>
+  <data name="FirstPlayer" xml:space="preserve">
+    <value>プレイヤー{0}が先制です!</value>
+  </data>
+  <data name="GameJudge" xml:space="preserve">
+    <value>ゲームマスター: 得点になりませんでした。再挑戦してください。</value>
+  </data>
+  <data name="GameWinner" xml:space="preserve">
+    <value>{0}のスコアでプレイヤー{1}が勝者しました!</value>
+    <comment>"Game Winner is Player " + (game.gs.ListOfPlayers[0].Id + 1) + " with scores" + (game.gs.ListOfPlayers[0].Score) + "!!!"</comment>
+  </data>
+  <data name="MobileFinishButton" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="MobilePlayerandScore" xml:space="preserve">
+    <value>今: P. {0} | スコア: </value>
+  </data>
+  <data name="MobilePlayerNow" xml:space="preserve">
+    <value>今のプレイヤー: {0} </value>
+  </data>
+  <data name="MobileSwapButton" xml:space="preserve">
+    <value>スオップ</value>
+  </data>
+  <data name="MobileTitle" xml:space="preserve">
+    <value>プレイヤー{0} - モバイルスクラブル</value>
+    <comment>"Player " + (P + 1) + " - MobileScrabble"</comment>
+  </data>
+  <data name="MobileWinner" xml:space="preserve">
+    <value>勝利者: P {0}, スコア: {1}!</value>
+  </data>
+  <data name="MobileYourTurn" xml:space="preserve">
+    <value>あなたのターン！</value>
+  </data>
+  <data name="NeedFriends" xml:space="preserve">
+    <value>スクラブルを始めるには友達が必要です。 友達を探してください。</value>
+  </data>
+  <data name="NoSwap" xml:space="preserve">
+    <value>袋の中には7タイル以下なので、今はスオップできません。</value>
+    <comment>"You can't swap tiles now becuase less than 7 tiles are left in the bag!"</comment>
+  </data>
+  <data name="NumofPlayer" xml:space="preserve">
+    <value>これは{0}人のゲームです。</value>
+  </data>
+  <data name="NumofPlayers" xml:space="preserve">
+    <value>これは{0}人のゲームです。</value>
+  </data>
+  <data name="OtherPlayerPass" xml:space="preserve">
+    <value>プレイヤー{0}がパスしました!</value>
+  </data>
+  <data name="OtherPlayerSwap" xml:space="preserve">
+    <value>プレイヤー{0}はタイルをスオップしました!</value>
+  </data>
+  <data name="PlayerCSScores" xml:space="preserve">
+    <value>プレイヤー {0}のスコアは: </value>
+  </data>
+  <data name="PlayerFour" xml:space="preserve">
+    <value>プレイヤー4</value>
+    <comment>MainWindow.xaml</comment>
+  </data>
+  <data name="PlayerOne" xml:space="preserve">
+    <value>プレイヤー1</value>
+    <comment>MainWindow.xaml</comment>
+  </data>
+  <data name="PlayerPass" xml:space="preserve">
+    <value>プレイヤー{0}がパスしました!</value>
+    <comment>"Player " + (PlayerNow + 1) + " decides to pass the turn!"</comment>
+  </data>
+  <data name="PlayerSwap" xml:space="preserve">
+    <value>入れ替えたいタイルを選択して...終了ボタンを押してください。</value>
+    <comment>"Select the tiles you don't want...Then press the FINISH button."</comment>
+  </data>
+  <data name="PlayerThree" xml:space="preserve">
+    <value>プレイヤー3</value>
+    <comment>MainWindow.xaml</comment>
+  </data>
+  <data name="PlayerTurn" xml:space="preserve">
+    <value>プレイヤー{0}のターンです。</value>
+  </data>
+  <data name="PlayerTurnFinish" xml:space="preserve">
+    <value>プレイヤー{0}のターンが終了しました!</value>
+  </data>
+  <data name="PlayerTwo" xml:space="preserve">
+    <value>プレイヤー2</value>
+    <comment>MainWindow.xaml</comment>
+  </data>
+  <data name="PlayerWord" xml:space="preserve">
+    <value>プレイヤー{0}の作った言葉は: </value>
+  </data>
+  <data name="RoundScore" xml:space="preserve">
+    <value>({0}ポイント)</value>
+  </data>
+  <data name="ScrabbleName" xml:space="preserve">
+    <value>スクラブル</value>
+    <comment>AboutWindow.xaml</comment>
+  </data>
+  <data name="StartAgain" xml:space="preserve">
+    <value>新しいゲームをするなら、このウインドウを閉じてください。</value>
+    <comment>"Close this window to restart Scrabble!"</comment>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>ゲームスタート！</value>
+  </data>
+  <data name="SwapButton" xml:space="preserve">
+    <value>スオップ</value>
+  </data>
+  <data name="TextFirstPlayer" xml:space="preserve">
+    <value>プレイヤー{0}が先制です!</value>
+  </data>
+  <data name="TextInput" xml:space="preserve">
+    <value>コマンドを入力してください。</value>
+  </data>
+  <data name="TextInstructions" xml:space="preserve">
+    <value>SWAP [SWAP A B Cなど], MOVE [MOVE A(7,7) Move B(7,8)], パスするならPASS，ランキング見たいならRANK</value>
+    <comment>日本語_SWAP then enter tile letter (IE: V D A)..., MOVE A(7,7)... to place tiles, PASS to pass, or RANK to rank.</comment>
+  </data>
+  <data name="TextJudgeCommand" xml:space="preserve">
+    <value>ゲームマスター: 間違ったコマンドを入力しました。もう一度入力してください。</value>
+  </data>
+  <data name="TextJudgeMove" xml:space="preserve">
+    <value>ゲームマスター: MOVEコマンドは間違いました、もう一度入力してください。</value>
+    <comment>"Game Judge: Wrong MOVE arguments. Please try again."</comment>
+  </data>
+  <data name="TextNoScore" xml:space="preserve">
+    <value>ゲームマスター: 得点になりませんでした。再挑戦してください。</value>
+    <comment>"Game Judge: \"You didn't score. Please try again!\""</comment>
+  </data>
+  <data name="TextNoSwap" xml:space="preserve">
+    <value>ゲームマスター: 今からスオップできません。</value>
+  </data>
+  <data name="TextNumofPlayer" xml:space="preserve">
+    <value>これは{0}人のゲームです。</value>
+  </data>
+  <data name="TextOnePlayerScore" xml:space="preserve">
+    <value>プレイヤー{0} - {1} | </value>
+  </data>
+  <data name="TextPass" xml:space="preserve">
+    <value>プレイヤー{0}がパスしました!</value>
+  </data>
+  <data name="TextPlayerFinish" xml:space="preserve">
+    <value>プレイヤー{0}のターンが終了しました!</value>
+  </data>
+  <data name="TextPlayerScores" xml:space="preserve">
+    <value>プレイヤースコア: </value>
+  </data>
+  <data name="TextPlayerWord" xml:space="preserve">
+    <value>プレイヤー{0}の作った言葉は:</value>
+  </data>
+  <data name="TextPressThis" xml:space="preserve">
+    <value>完了したら、サブミットをクリックするか、ENTERキーを押してください。</value>
+  </data>
+  <data name="TextScore" xml:space="preserve">
+    <value>プレイヤー{0}、{1}もらいました。</value>
+  </data>
+  <data name="TextStartGame" xml:space="preserve">
+    <value>ゲームスタート</value>
+  </data>
+  <data name="TextSwap" xml:space="preserve">
+    <value>プレイヤー{0}はタイルをスオップしました!</value>
+  </data>
+  <data name="TextWinner" xml:space="preserve">
+    <value>{0}のスコアでプレイヤー{1}が勝者しました!</value>
+  </data>
+  <data name="TextWordScore" xml:space="preserve">
+    <value>({0}ポイント)</value>
+  </data>
+  <data name="TextYourTiles" xml:space="preserve">
+    <value>あなたのタイル: </value>
+  </data>
+  <data name="TextYourTurn" xml:space="preserve">
+    <value>今はあなたのターンです！</value>
+  </data>
+  <data name="TileChar" xml:space="preserve">
+    <value>プレイヤー{0}、{1}もらいました。</value>
+    <comment>日本語_Player {0} gets {1}!</comment>
+  </data>
+  <data name="ViewDesktopPlayer" xml:space="preserve">
+    <value>プレイヤー{0} - デスクトップスクラブル</value>
+    <comment>日本語_Player {0} - Desktop Scrabble</comment>
+  </data>
+  <data name="ViewTextPlayer" xml:space="preserve">
+    <value>プレイヤー{0} - テキストスクラブル</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>スクラブルへようこそ、プレイヤー達！</value>
+  </data>
+  <data name="XAMLAbout" xml:space="preserve">
+    <value>について</value>
+    <comment>AboutWindow.xaml</comment>
+  </data>
+  <data name="XAMLHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>DesktopWindow.xaml</comment>
+  </data>
+  <data name="XAMLInterface" xml:space="preserve">
+    <value>インターフェイスを選択してください</value>
+    <comment>MainWindow.xaml</comment>
+  </data>
+  <data name="XAMLPASS" xml:space="preserve">
+    <value>パス</value>
+    <comment>DesktopWindow.xaml</comment>
+  </data>
+  <data name="XAMLRACK" xml:space="preserve">
+    <value>ラックに戻る</value>
+    <comment>DesktopWindow.xaml</comment>
+  </data>
+  <data name="XAMLStart" xml:space="preserve">
+    <value>スタート</value>
+    <comment>AboutWindow.xaml</comment>
+  </data>
+  <data name="XAMLSWAP" xml:space="preserve">
+    <value>スワップ</value>
+    <comment>DesktopWindow.xaml</comment>
+  </data>
+  <data name="XAMLTitle" xml:space="preserve">
+    <value>スクラブル</value>
+    <comment>MainWindow.xaml</comment>
+  </data>
+  <data name="XAMLWelcome" xml:space="preserve">
+    <value>ようこそプレイヤーの皆さん</value>
+    <comment>MainWindow.xaml</comment>
+  </data>
+  <data name="XAMLYourRack" xml:space="preserve">
+    <value>これがあなたのラックです。</value>
+    <comment>DesktopWindow.xaml</comment>
+  </data>
+  <data name="YourTurn" xml:space="preserve">
+    <value>あなたのターン！</value>
+  </data>
+</root>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Scrabble2018.View.Language"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scrabble2018.View"
+        mc:Ignorable="d"
+        Title="Language" Height="450" Width="800">
+    <Grid>
+        <Button Content="English" Click = "English_Click" HorizontalAlignment="Left" Height="60" Margin="153,226,0,0" VerticalAlignment="Top" Width="195" Background="#FFFF9797" FontSize="24"/>
+        <Button Content="日本語" Click = "Japanese_Click" HorizontalAlignment="Left" Height="60" Margin="447,226,0,0" VerticalAlignment="Top" Width="195" Background="#FF9CBDFD" FontSize="24"/>
+        <Button Content="한국어" Click = "Korean_Click" HorizontalAlignment="Left" Height="60" Margin="153,311,0,0" VerticalAlignment="Top" Width="195" Background="#FFCC80EA" FontSize="24"/>
+        <Button Content="中国人" Click = "Chinese_Click" HorizontalAlignment="Left" Height="60" Margin="447,306,0,0" VerticalAlignment="Top" Width="195" Background="#FF9BD070" FontSize="24"/>
+        <TextBox HorizontalAlignment="Center" Height="79" Margin="0,72,0,0" TextWrapping="Wrap" Text="Select your language" VerticalAlignment="Top" Width="458" FontSize="48"/>
+    </Grid>
+</Window>
