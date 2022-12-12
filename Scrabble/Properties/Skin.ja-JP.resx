@@ -408,4 +408,20 @@
   <data name="YourTurn" xml:space="preserve">
     <value>あなたのターン！</value>
   </data>
+  <data name="MobileName" xml:space="preserve">
+    <value>スクラブル</value>
+    <comment>MobileWindow.xaml</comment>
+  </data>
+    <data name="MobileButton1" xml:space="preserve">
+    <value>終了</value>
+  </data>
+    <data name="MobileButton2" xml:space="preserve">
+    <value>スオップ</value>
+  </data>
+    <data name="MobileButton3" xml:space="preserve">
+    <value>リロード</value>
+  </data>
+    <data name="MobileLabel" xml:space="preserve">
+    <value>タイルを確認してください！</value>
+  </data>
 </root>
