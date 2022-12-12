@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Scrabble2018.Properties"
         mc:Ignorable="d"
         Background="DarkCyan"
-        Title="{x:Static local:Skin.AboutTitle}" Height="123.501" Width="200"
+        Title="{x:Static local:Skin.AboutTitle}" Height="174" Width="258"
         ResizeMode="CanMinimize"
     >
     <Grid>
@@ -14,7 +14,9 @@
             <ColumnDefinition Width="11*"/>
             <ColumnDefinition Width="89*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="Author: poyea@GitHub&#xA;Repository: poyea/scrabble" HorizontalContentAlignment="Center" FontFamily="Georgia" Name="About" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="44" Width="168" Grid.ColumnSpan="2"/>
-        <Label Content="{x:Static local:Skin.ScrabbleName}" HorizontalContentAlignment="Center" FontFamily="Georgia" FontSize="25" Foreground="Red" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top" Height="115" Width="174" Grid.ColumnSpan="2"/>
+        <Label Content="{x:Static local:Skin.Author}" HorizontalContentAlignment="Center" FontFamily="Georgia" Name="About" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="32" Width="238" Grid.ColumnSpan="2"/>
+        <Label Content="{x:Static local:Skin.ScrabbleName}" HorizontalContentAlignment="Center" FontFamily="Georgia" FontSize="25" Foreground="Red" HorizontalAlignment="Left" Margin="14,114,0,0" VerticalAlignment="Top" Height="115" Width="174" Grid.Column="1"/>
+        <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="52" Margin="28,57,0,0" TextWrapping="Wrap" Text="{x:Static local:Skin.I18Nwiz}" VerticalAlignment="Top" Width="188" FontSize="8" TextAlignment="Center" FontFamily="Georgia"/>
+
     </Grid>
 </Window>

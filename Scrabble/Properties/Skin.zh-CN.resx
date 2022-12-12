@@ -229,7 +229,7 @@
     <value>玩家{0}已经换了牌！</value>
   </data>
   <data name="PlayerCSScores" xml:space="preserve">
-    <value>玩家{0)'s score is: {1}</value>
+    <value>玩家{0}的得分是：{1}</value>
     <comment>Player.cs THIS ONE IS NOT WORKING</comment>
   </data>
   <data name="PlayerFour" xml:space="preserve">
@@ -408,7 +408,11 @@
   <data name="YourTurn" xml:space="preserve">
     <value>轮到你了！</value>
   </data>
-    <data name="PlayerCS" xml:space="preserve">
+  <data name="PlayerCS" xml:space="preserve">
     <value>玩家{0}的得分是：{1}</value>
+  </data>
+  <data name="I18Nwiz" xml:space="preserve">
+    <value>这个国际化和本地化版本的 Scrabble 是由 Nicole Anjuli Henry、Tulsiben Patel、Linh Nguyen 和 Aurora Wang 为我们在蒙特雷米德尔伯里国际研究学院的软件国际化课程创建的。</value>
+    <comment>Get credit!!</comment>
   </data>
 </root>

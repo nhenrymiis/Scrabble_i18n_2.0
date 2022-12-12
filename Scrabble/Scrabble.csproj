@@ -85,11 +85,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Skin.ja-JP.resx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Skin.KR.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Skin.KR.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Skin.zh-CN.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -181,10 +176,7 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Skin.ja-JP.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Skin.KR.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Skin.KR.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Skin.ko-KR.resx" />
     <EmbeddedResource Include="Properties\Skin.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Skin.Designer.cs</LastGenOutput>
@@ -206,6 +198,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="k_SZp_icon.ico" />
+    <Resource Include="Image\banner_ja-JP.png" />
+    <Resource Include="Image\banner_ko-KR.png" />
+    <Resource Include="Image\banner_zh-CN.png" />
     <Content Include="Model\Word\wordlist.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

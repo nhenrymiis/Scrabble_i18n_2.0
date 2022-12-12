@@ -214,6 +214,15 @@ namespace Scrabble2018.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This internationalized and localized version of Scrabble was created by Nicole Anjuli Henry, Tulsiben Patel, Linh Nguyen, and Aurora Wang for our software i18n class at Middlebury Institute of International Studies at Monterey..
+        /// </summary>
+        public static string I18Nwiz {
+            get {
+                return ResourceManager.GetString("I18Nwiz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to FINISH.
         /// </summary>
         public static string MobileFinishButton {
@@ -340,7 +349,7 @@ namespace Scrabble2018.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0)&apos;s score is: {1}.
+        ///   Looks up a localized string similar to Player {0}&apos;s score is: {1}.
         /// </summary>
         public static string PlayerCSScores {
             get {

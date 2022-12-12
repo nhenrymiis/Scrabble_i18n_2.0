@@ -17,9 +17,9 @@
         <StackPanel>
             <Menu/>
         </StackPanel>
-        <Image Source="/Image/banner.png" Margin="0,38,0,180"/>
+        <Image Name="Logo" Source="/Image/banner.png" Margin="0,38,0,180"/>
         <Label Name="Label" FontSize="30" FontFamily="Georgia" HorizontalContentAlignment="Center" Content="{x:Static local:Skin.XAMLInterface}" HorizontalAlignment="Left" Margin="10,216,0,0" VerticalAlignment="Top" Height="51" Width="452"/>
-        <Grid Name="Interfaces" Margin="0,0.4" Grid.Row="1">
+        <Grid Name="Interfaces" Margin="0,1,0,63" Grid.Row="1">
             <ComboBox Name="CB1" HorizontalAlignment="Left" Margin="167,16.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi1"></ComboBoxItem>
                 <ComboBoxItem Name="cbi2" Content="{x:Static local:Skin.DesktopInterface}"></ComboBoxItem>
@@ -36,7 +36,7 @@
                 <ComboBoxItem Name="cbi9"></ComboBoxItem>
                 <ComboBoxItem Name="cbi10" Content="{x:Static local:Skin.DesktopInterface}"></ComboBoxItem>
                 <ComboBoxItem Name="cbi11" Content="{x:Static local:Skin.TextInterface}"></ComboBoxItem>
-                <ComboBoxItem Name="cb12" Content="{x:Static local:Skin.MobileInterface}"></ComboBoxItem>>
+                <ComboBoxItem Name="cb12" Content="{x:Static local:Skin.MobileInterface}"></ComboBoxItem> >
             </ComboBox>
             <ComboBox Name="CB4" HorizontalAlignment="Left" Margin="167,74.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi13"></ComboBoxItem>
@@ -44,14 +44,14 @@
                 <ComboBoxItem Name="cbi15" Content="{x:Static local:Skin.TextInterface}"></ComboBoxItem>
                 <ComboBoxItem Name="cbi16" Content="{x:Static local:Skin.MobileInterface}"></ComboBoxItem>
             </ComboBox>
-            <Button Content="Language" HorizontalAlignment="Left" Margin="16,243,0,0" VerticalAlignment="Top" Click="Lang_Click" Background="#FF6EF770" Height="29" Width="66"/>
-        </Grid>
 
+        </Grid>
+        <Button Content="Language" HorizontalAlignment="Left" Margin="32,249,0,0" VerticalAlignment="Top" Click="Lang_Click" Background="#FF6EF770" Height="29" Width="66" Grid.Row="1"/>
         <Label Content="{x:Static local:Skin.PlayerFour}" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,194.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Width="65"/>
         <Label Content="{x:Static local:Skin.PlayerThree}" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,134.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="65"/>
         <Label Content="{x:Static local:Skin.PlayerTwo}" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="81,73.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Width="65"/>
         <Label Content="{x:Static local:Skin.PlayerOne}" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,14.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="63"/>
-        <Label x:Name="Label_Copy" FontSize="30" FontFamily="Georgia" HorizontalContentAlignment="Center" Content="{x:Static local:Skin.XAMLWelcome}" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Height="51" Width="452"/>
+        <Label Content="{x:Static local:Skin.XAMLWelcome}" x:Name="WelcomeLabel" FontSize="30" FontFamily="Georgia" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Height="51" Width="452"/>
         <Button Content="{x:Static local:Skin.XAMLStart}" Name="StartButton" FontFamily="Georgia" FontSize="27" Background="Goldenrod" HorizontalAlignment="Left" Margin="349,176.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="89" Height="64" Click="Button_Click"/>
         <Button Content="{x:Static local:Skin.XAMLAbout}" FontFamily="Georgia" FontSize="15" Background="AntiqueWhite" HorizontalAlignment="Left" Margin="349,144.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="89" Height="20" Click="AboutButton_Click"/>
 

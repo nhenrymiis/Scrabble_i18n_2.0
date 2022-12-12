@@ -153,6 +153,9 @@
     <value>空白のタイルを表す文字を選んでください。</value>
     <comment>BlankTileForm.xaml</comment>
   </data>
+  <data name="DesktopInterface" xml:space="preserve">
+    <value>デスクトップ</value>
+  </data>
   <data name="Done" xml:space="preserve">
     <value>終了</value>
     <comment>BlankTileForm.xaml</comment>
@@ -178,8 +181,15 @@
     <value>{0}のスコアでプレイヤー{1}が勝者しました!</value>
     <comment>"Game Winner is Player " + (game.gs.ListOfPlayers[0].Id + 1) + " with scores" + (game.gs.ListOfPlayers[0].Score) + "!!!"</comment>
   </data>
+  <data name="I18Nwiz" xml:space="preserve">
+    <value>この国際化およびローカライズされたバージョンの スクラブルは、Nicole Anjuli Henry、Tulsiben Patel、Linh Nguyen、および Aurora Wang によって、モントレーの Middlebury Institute of International Studies のソフトウェア国際化クラスのために作成されました。</value>
+    <comment>Get credit!!</comment>
+  </data>
   <data name="MobileFinishButton" xml:space="preserve">
     <value>終了</value>
+  </data>
+  <data name="MobileInterface" xml:space="preserve">
+    <value>モバイル</value>
   </data>
   <data name="MobilePlayerandScore" xml:space="preserve">
     <value>今: P. {0} | スコア: </value>
@@ -220,7 +230,7 @@
     <value>プレイヤー{0}はタイルをスオップしました!</value>
   </data>
   <data name="PlayerCSScores" xml:space="preserve">
-    <value>プレイヤー {0}のスコアは: </value>
+    <value>プレイヤー {0}のスコアは: {1}</value>
   </data>
   <data name="PlayerFour" xml:space="preserve">
     <value>プレイヤー4</value>
@@ -281,6 +291,9 @@
   <data name="TextInstructions" xml:space="preserve">
     <value>SWAP [SWAP A B Cなど], MOVE [MOVE A(7,7) Move B(7,8)], パスするならPASS，ランキング見たいならRANK</value>
     <comment>日本語_SWAP then enter tile letter (IE: V D A)..., MOVE A(7,7)... to place tiles, PASS to pass, or RANK to rank.</comment>
+  </data>
+  <data name="TextInterface" xml:space="preserve">
+    <value>テキスト</value>
   </data>
   <data name="TextJudgeCommand" xml:space="preserve">
     <value>ゲームマスター: 間違ったコマンドを入力しました。もう一度入力してください。</value>

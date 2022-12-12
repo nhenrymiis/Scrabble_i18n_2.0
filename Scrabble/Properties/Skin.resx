@@ -182,6 +182,10 @@
     <value>With a score of {0}, Player {1} is the winner!</value>
     <comment>"Game Winner is Player " + (game.gs.ListOfPlayers[0].Id + 1) + " with scores" + (game.gs.ListOfPlayers[0].Score) + "!!!"</comment>
   </data>
+  <data name="I18Nwiz" xml:space="preserve">
+    <value>This internationalized and localized version of Scrabble was created by Nicole Anjuli Henry, Tulsiben Patel, Linh Nguyen, and Aurora Wang for our software i18n class at Middlebury Institute of International Studies at Monterey.</value>
+    <comment>ByLine in the AboutWindow.xaml</comment>
+  </data>
   <data name="MobileFinishButton" xml:space="preserve">
     <value>FINISH</value>
   </data>
@@ -229,7 +233,7 @@
     <value>Player {0} has swapped their tiles!</value>
   </data>
   <data name="PlayerCSScores" xml:space="preserve">
-    <value>Player {0)'s score is: {1}</value>
+    <value>Player {0}'s score is: {1}</value>
     <comment>Player.cs THIS ONE IS NOT WORKING</comment>
   </data>
   <data name="PlayerFour" xml:space="preserve">

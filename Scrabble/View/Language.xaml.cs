@@ -35,7 +35,8 @@ namespace Scrabble2018.View
             //English
             Thread.CurrentThread.CurrentCulture = _info;
             Thread.CurrentThread.CurrentUICulture = _info;
-            
+
+            ///Image/banner.png
             MainWindow ab = new MainWindow();
             ab.Show();
             this.Close();
@@ -56,7 +57,7 @@ namespace Scrabble2018.View
 
         private void Korean_Click(object sender, RoutedEventArgs e)
         {
-            /*Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.InputEncoding = System.Text.Encoding.Unicode;
             CultureInfo _info = CultureInfo.CreateSpecificCulture("ko-KR");
             //Korean
@@ -66,21 +67,24 @@ namespace Scrabble2018.View
 
             MainWindow ab = new MainWindow();
             ab.Show();
-            this.Close();*/
+            this.Close();
         }
 
         private void Chinese_Click(object sender, RoutedEventArgs e)
         {
-            /*Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.InputEncoding = System.Text.Encoding.Unicode;
             CultureInfo _info = CultureInfo.CreateSpecificCulture("zh_CN");
-            //Japanese
+            //Chinese
             Thread.CurrentThread.CurrentCulture = _info;
             Thread.CurrentThread.CurrentUICulture = _info;
 
+            MainWindow ab = new MainWindow();
+            ab.Show();
+            this.Close();
 
             //new MainWindow().show();
-            //this.Close();*/
+            //this.Close();
         }
     }
 }

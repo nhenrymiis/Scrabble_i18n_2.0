@@ -43,9 +43,8 @@ namespace Scrabble.Model
         {
             //return "Player " + this.id + " has scores " + this.score + " now!";
             //Above has been fixed to line as seen below:
-            return "Player " + this.id + "'s score: " + this.score;
-            //string playerScore = string.Format(Scrabble2018.Properties.Skin.PlayerCSScores, this.id, this.score);
-            //return playerScore;
+            string playerScore = string.Format(Scrabble2018.Properties.Skin.PlayerCSScores, this.id, this.score);
+            return playerScore;
 
         }
 

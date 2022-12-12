@@ -27,6 +27,7 @@ namespace Scrabble
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
             int cnt = 0;
             foreach (ComboBox c in Interfaces.Children)
             {
@@ -42,19 +43,19 @@ namespace Scrabble
                 {
                     ComboBoxItem ci = c.SelectedItem as ComboBoxItem;
                     if (ci == null) continue;
-                    if (ci.Content.ToString() == "Desktop")
+                    if (ci.Content.ToString() == Scrabble2018.Properties.Skin.DesktopInterface)
                     {
                         DesktopWindow dw = new DesktopWindow(P, g);
                         dw.Show();
                         P++;
                     }
-                    else if (ci.Content.ToString() == "Text")
+                    else if (ci.Content.ToString() == Scrabble2018.Properties.Skin.TextInterface)
                     {
                         TextWindow tw = new TextWindow(P, g);
                         tw.Show();
                         P++;
                     }
-                    else if (ci.Content.ToString() == "Mobile")
+                    else if (ci.Content.ToString() == Scrabble2018.Properties.Skin.MobileInterface)
                     {
                         MobileWindow mw = new MobileWindow(P, g);
                         mw.Show();
