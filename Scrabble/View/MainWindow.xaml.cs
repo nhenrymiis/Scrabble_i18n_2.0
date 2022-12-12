@@ -8,7 +8,9 @@ using System.Globalization;
 using System.Threading;
 using System;
 using Scrabble2018.View;
-
+using System.Windows.Media.Imaging;
+using System.Security.Policy;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Scrabble
 {
@@ -23,6 +25,7 @@ namespace Scrabble
         public MainWindow()
         {
             InitializeComponent();
+            //Logo_Change(); <-- trying to figure out how to change the logo when the language changes. Still a work in progress -Linh
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -66,7 +69,8 @@ namespace Scrabble
             }
             else
             {
-                MessageBox.Show(Scrabble2018.Properties.Skin.NeedFriends);
+                MessageBox.Show(Scrabble2018.Properties.Skin.NeedFriends); //Who doesn't need friends? :)
+
             }
         }
 
@@ -77,30 +81,35 @@ namespace Scrabble
             ab.ShowDialog();
         }
 
-        /*private void English_Click(object sender, RoutedEventArgs e)
-        {
-            Console.OutputEncoding = System.Text.Encoding.Unicode;
-            Console.InputEncoding = System.Text.Encoding.Unicode;
-            CultureInfo _info = CultureInfo.CreateSpecificCulture("en-US");
-            //English
-            Thread.CurrentThread.CurrentCulture = _info;
-            Thread.CurrentThread.CurrentUICulture = _info;
-        }
-        private void Japanese_Click(object sender, RoutedEventArgs e)
-        {
-            Console.OutputEncoding = System.Text.Encoding.Unicode;
-            Console.InputEncoding = System.Text.Encoding.Unicode;
-            CultureInfo _info = CultureInfo.CreateSpecificCulture("ja_JP");
-            //Japanese
-            Thread.CurrentThread.CurrentCulture = _info;
-            Thread.CurrentThread.CurrentUICulture = _info;
-        }*/
-
         public void Lang_Click(object sender, RoutedEventArgs e)
         {
             Scrabble2018.View.Language ln = new Language();
             ln.Show();
             this.Close();
         }
+        /*public void Logo_Change() <-- It's so hard :< I don't know why. I want to change the pictures :(
+        {
+
+            if (CultureInfo.CurrentUICulture.Name == "ja-JP")
+            {
+                Logo.Source = new BitmapImage(new Uri("/Image/banner_ja-JP.png", UriKind.Relative));
+            }
+            else if(CultureInfo.CurrentUICulture.Name == "ko-KR")
+            {
+                Logo.Source = new BitmapImage(new Uri(@"pack://application:,,,/Scrabble;component/Image/banner_ko-KR.png"));
+
+            }
+            else if (CultureInfo.CurrentUICulture.Name == "zh-CN")
+            {
+                Logo.Source = new BitmapImage(new Uri(@"pack://application:,,,/Scrabble;component/Image/banner_zh-CN.png"));
+
+            }
+            else
+            {
+                Logo.Source = new BitmapImage(new Uri(@"pack://application:,,,/Scrabble;component/Image/banner.png"));
+
+            }
+
+        }*/
     }
 }

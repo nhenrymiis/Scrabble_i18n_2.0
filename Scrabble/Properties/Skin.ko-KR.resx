@@ -413,19 +413,19 @@
     <value>당신의 차례!</value>
   </data>
   <data name="MobileName" xml:space="preserve">
-    <value>Scrabble</value>
+    <value>스크래블</value>
     <comment>MobileWindow.xaml</comment>
   </data>
-    <data name="MobileButton1" xml:space="preserve">
-    <value>DONE</value>
+  <data name="MobileButton1" xml:space="preserve">
+    <value> 완료</value>
   </data>
-    <data name="MobileButton2" xml:space="preserve">
-    <value>SWAP</value>
+  <data name="MobileButton2" xml:space="preserve">
+    <value>교체</value>
   </data>
-    <data name="MobileButton3" xml:space="preserve">
-    <value>RELOAD</value>
+  <data name="MobileButton3" xml:space="preserve">
+    <value>재장전</value>
   </data>
-    <data name="MobileLabel" xml:space="preserve">
-    <value>Check your tiles!</value>
+  <data name="MobileLabel" xml:space="preserve">
+    <value>타일 확인</value>
   </data>
 </root>

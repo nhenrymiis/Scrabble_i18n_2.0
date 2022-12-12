@@ -48,8 +48,8 @@ namespace Scrabble2018.View
             CultureInfo _info = CultureInfo.CreateSpecificCulture("ja_JP");
             //Japanese
             Thread.CurrentThread.CurrentCulture = _info;
-            Thread.CurrentThread.CurrentUICulture = _info;            
-                   
+            Thread.CurrentThread.CurrentUICulture = _info;
+
             MainWindow ab = new MainWindow();
             ab.Show();
             this.Close();        
@@ -82,9 +82,6 @@ namespace Scrabble2018.View
             MainWindow ab = new MainWindow();
             ab.Show();
             this.Close();
-
-            //new MainWindow().show();
-            //this.Close();
         }
     }
 }

@@ -223,6 +223,33 @@ namespace Scrabble2018.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to DONE.
+        /// </summary>
+        public static string MobileButton1 {
+            get {
+                return ResourceManager.GetString("MobileButton1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SWAP.
+        /// </summary>
+        public static string MobileButton2 {
+            get {
+                return ResourceManager.GetString("MobileButton2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to RELOAD.
+        /// </summary>
+        public static string MobileButton3 {
+            get {
+                return ResourceManager.GetString("MobileButton3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to FINISH.
         /// </summary>
         public static string MobileFinishButton {
@@ -237,6 +264,24 @@ namespace Scrabble2018.Properties {
         public static string MobileInterface {
             get {
                 return ResourceManager.GetString("MobileInterface", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check your tiles!.
+        /// </summary>
+        public static string MobileLabel {
+            get {
+                return ResourceManager.GetString("MobileLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scrabble.
+        /// </summary>
+        public static string MobileName {
+            get {
+                return ResourceManager.GetString("MobileName", resourceCulture);
             }
         }
         

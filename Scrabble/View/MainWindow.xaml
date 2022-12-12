@@ -17,7 +17,7 @@
         <StackPanel>
             <Menu/>
         </StackPanel>
-        <Image Name="Logo" Source="/Image/banner.png" Margin="0,38,0,180"/>
+        <Image Source="/Image/banner.png" Margin="0,38,0,180"/>
         <Label Name="Label" FontSize="30" FontFamily="Georgia" HorizontalContentAlignment="Center" Content="{x:Static local:Skin.XAMLInterface}" HorizontalAlignment="Left" Margin="10,216,0,0" VerticalAlignment="Top" Height="51" Width="452"/>
         <Grid Name="Interfaces" Margin="0,1,0,63" Grid.Row="1">
             <ComboBox Name="CB1" HorizontalAlignment="Left" Margin="167,16.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">

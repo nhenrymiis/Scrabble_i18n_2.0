@@ -11,8 +11,8 @@
     >
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="11*"/>
-            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="28.38"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label Content="{x:Static local:Skin.Author}" HorizontalContentAlignment="Center" FontFamily="Georgia" Name="About" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="32" Width="238" Grid.ColumnSpan="2"/>
         <Label Content="{x:Static local:Skin.ScrabbleName}" HorizontalContentAlignment="Center" FontFamily="Georgia" FontSize="25" Foreground="Red" HorizontalAlignment="Left" Margin="14,114,0,0" VerticalAlignment="Top" Height="115" Width="174" Grid.Column="1"/>
