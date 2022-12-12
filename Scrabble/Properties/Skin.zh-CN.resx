@@ -415,4 +415,20 @@
     <value>这个国际化和本地化版本的 Scrabble 是由 Nicole Anjuli Henry、Tulsiben Patel、Linh Nguyen 和 Aurora Wang 为我们在蒙特雷米德尔伯里国际研究学院的软件国际化课程创建的。</value>
     <comment>Get credit!!</comment>
   </data>
+  <data name="MobileName" xml:space="preserve">
+    <value>涂鸦拼字</value>
+    <comment>MobileWindow.xaml</comment>
+  </data>
+    <data name="MobileButton1" xml:space="preserve">
+    <value>结束</value>
+  </data>
+    <data name="MobileButton2" xml:space="preserve">
+    <value>换牌</value>
+  </data>
+    <data name="MobileButton3" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+    <data name="MobileLabel" xml:space="preserve">
+    <value>看下你的字母牌吧！</value>
+  </data>
 </root>
