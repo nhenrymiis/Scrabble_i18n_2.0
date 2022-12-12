@@ -257,7 +257,7 @@
     <comment>MainWindow.xaml</comment>
   </data>
   <data name="PlayerTurn" xml:space="preserve">
-    <value>플레이어{0}의 차례입니다.</value>
+    <value>플레이어{0} 턴.</value>
   </data>
   <data name="PlayerTurnFinish" xml:space="preserve">
     <value>플레이어{0} 차례가 끝났습니다!</value>
@@ -335,7 +335,7 @@
     <value>완료되면 Submit(제출)을 클릭하거나 Enter 키를 누릅니다.</value>
   </data>
   <data name="TextScore" xml:space="preserve">
-    <value>플레이어{0} {1}점을 얻었습니다 !</value>
+    <value>플레이어{0} {1}을 얻었습니다 !</value>
   </data>
   <data name="TextStartGame" xml:space="preserve">
     <value>게임... 시작!</value>
@@ -406,7 +406,7 @@
     <comment>MainWindow.xaml</comment>
   </data>
   <data name="XAMLYourRack" xml:space="preserve">
-    <value>이것은 당신의 랙입니다.</value>
+    <value>본인의 랙</value>
     <comment>DesktopWindow.xaml</comment>
   </data>
   <data name="YourTurn" xml:space="preserve">

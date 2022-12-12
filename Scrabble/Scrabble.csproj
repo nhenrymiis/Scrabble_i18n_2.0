@@ -167,7 +167,9 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Skin.ja-JP.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Skin.ko-KR.resx" />
+    <EmbeddedResource Include="Properties\Skin.ko-KR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Skin.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Skin.Designer.cs</LastGenOutput>

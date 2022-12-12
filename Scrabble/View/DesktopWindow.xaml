@@ -33,7 +33,7 @@
         </Grid>
         <Grid Height="191" Margin="621,498,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="593" Grid.Column="2">
             <Grid HorizontalAlignment="Left" Margin="0,0,0,3" Width="428">
-                <Label x:Name="PlayerInfoLbl" Content="{x:Static local:Skin.XAMLYourRack}" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top" Height="35" Width="207" FontSize="20" FontFamily="Microsoft YaHei Mono"/>
+                <Label x:Name="PlayerInfoLbl" Content="{x:Static local:Skin.XAMLYourRack}" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Height="33" Width="298" FontSize="20" FontFamily="Microsoft YaHei Mono"/>
                 <UniformGrid x:Name="HandGrid" Columns="7" Rows="1" Margin="10,0,0,40.4" Height="70" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="408">
                     <UniformGrid.Resources>
                         <Style TargetType="{x:Type Button}">
