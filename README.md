@@ -2,7 +2,11 @@
 
 # Scrabble
 
+This is a localized version of Scrabble game in C# originally created by poyea. The game is localized into Japanese, Chinese, and Korean by Nicole Henry, Aurora Wang, Tulsi Patel, and Linh Nguyen, translation and localization management students of Middlebury Institute of International Studies at Monterey. We hope you enjoy this localized rendition of Scrabble.
+
 Scrabble game in C#, using <a href="https://en.wikipedia.org/wiki/Windows_Presentation_Foundation">WPF</a>. This is a standard, but imperfect 100-pieces version of Scrabble game. There are no "Challenge" option and "The Fifty Point Bonus" in this version of the game.
+
+
 
 ## Preview
 <details><summary>Click here</summary>
@@ -10,6 +14,10 @@ Scrabble game in C#, using <a href="https://en.wikipedia.org/wiki/Windows_Presen
     <img src=".preview/home.jpg" alt="home"/>
     <img src=".preview/desktop.jpg" alt="desktop"  />
     <img src=".preview/mobile-and-text.jpg" alt="mobile-and-text" />
+    <img src=".preview/Scrabble-JA.png" alt="Scrabble-Japanese" />
+    <img src=".preview/Scrabble-KO.png" alt="Scrabble-Korean" />
+    <img src=".preview/Scrabble-ZH-CN.png" alt="Scrabble-Chinese" />
+
   </p>
 </details>
 
