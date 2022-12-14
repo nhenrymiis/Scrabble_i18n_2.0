@@ -14,9 +14,10 @@ Scrabble game in C#, using <a href="https://en.wikipedia.org/wiki/Windows_Presen
     <img src=".preview/home.jpg" alt="home"/>
     <img src=".preview/desktop.jpg" alt="desktop"  />
     <img src=".preview/mobile-and-text.jpg" alt="mobile-and-text" />
-    <img src=".preview/Scrabble-JA.png" alt="Scrabble-Japanese" />
+    <img src="[.preview/Scrabble-JA.png](https://user-images.githubusercontent.com/115181771/207735601-eb8c823e-6548-4302-8c94-3e69de137d5b.png)" alt="Scrabble-Japanese" />
     <img src="https://user-images.githubusercontent.com/115181771/207735598-1f319583-1a6a-470b-9273-48820c7ba833.png" alt="Scrabble-Korean" />
-    <img src=".preview/Scrabble-ZH-CN.png" alt="Scrabble-Chinese" />
+    <img src="https://user-images.githubusercontent.com/115181771/207735605-4d4a6566-cbf7-46fe-8a20-d9b765bc2b07.png" alt="Scrabble-Chinese" />
+    <img src="https://user-images.githubusercontent.com/115181771/207735603-781ea685-8f55-43d0-ba72-7419796dfd77.png" alt="In-Game-Localized" />
 
   </p>
 </details>
